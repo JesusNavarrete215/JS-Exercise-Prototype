@@ -101,17 +101,17 @@ function Airplane(name) {
             return `Playing with ${this.favoriteToy}`
           }
 
-const baby1 = new Baby('chikis', 49, "bones")
+          const baby1 = new Baby('chikis', 49, "bones")
 
           console.log(baby1.play());
   
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Global Binding: If no other rules apply then "this" defaults to the window, which is an error. 
+    2. Implicit Binding: when the function is invoked, it looks to the left of the dot.
+    3. New Binding: whenever a constructor function is used, "this" refers to the specific instance of the object that is created and returned by the constructor function. 
+    4. Explicit Binding: With Explicit Binding there are 3 function we can use: call, apply, bind, With Call it immediately invokes the function we pass in arguments 1 by 1. Apply immediatly invokes the function we pass arguments as an array. Bind does not immediately invoke the function , instead it returns a brand new function that can be invoked later . 
   */
   
   
